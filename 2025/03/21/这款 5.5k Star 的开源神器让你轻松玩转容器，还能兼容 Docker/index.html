@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="多屏党福音！这款 6.4k Star 的开源神器一键搞定 Windows 显示器亮度管理, 开源小分队">
+    <meta name="keywords" content="告别臃肿！这款 5.5k Star 的开源神器让你轻松玩转容器，还能兼容 Docker, 开源小分队">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>多屏党福音！这款 6.4k Star 的开源神器一键搞定 Windows 显示器亮度管理 | 开源小分队</title>
+    <title>告别臃肿！这款 5.5k Star 的开源神器让你轻松玩转容器，还能兼容 Docker | 开源小分队</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -266,12 +266,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">多屏党福音！这款 6.4k Star 的开源神器一键搞定 Windows 显示器亮度管理</h1>
+                    <h1 class="description center-align post-title">告别臃肿！这款 5.5k Star 的开源神器让你轻松玩转容器，还能兼容 Docker</h1>
                 </div>
             </div>
         </div>
@@ -424,33 +424,40 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>大家好，我是热爱开源的了不起！</p>
-<p>你是否遇到过这样的烦恼：在 Windows 上使用多个显示器时，每个屏幕的亮度调节都得“各自为战”，手动逐个调整费时费力？或是想根据环境光线自动调光，却苦于系统功能太简陋？别担心，今天要介绍的 Twinkle Tray，就是专为解决这些问题而生的开源利器！</p>
-<h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><p>Twinkle Tray 是一款专为 Windows 设计的开源工具，它通过系统托盘图标提供多显示器亮度统一调控功能，弥补了 Windows 原生功能对外接显示器支持的不足。无论是办公、设计还是日常使用，你都能：</p>
+                <p>大家好，我是热爱开源的了不起。</p>
+<p>你是否曾因 Docker Desktop 的庞大体积和复杂权限而头疼？又或者因为需要频繁输入命令行管理容器而效率低下？</p>
+<p>今天，我要为你介绍一个轻量、安全且兼容 Docker 的开源工具——Podman Desktop。它能完美解决这些问题，甚至能一键管理 Kubernetes 资源，开发者必备！</p>
+<h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><p>Podman Desktop 是由 Red Hat 开源的跨平台容器管理工具，主打“无守护进程”和“图形化操作”。它不仅能替代 Docker Desktop，还支持直接管理 Podman、Docker、Lima 等多种容器引擎。核心优势包括：</p>
 <ul>
-<li>一键调节：通过托盘图标快速调整单个或所有显示器的亮度。</li>
-<li>自动化调光：根据时间或空闲状态自动调整亮度，保护眼睛。</li>
-<li>快捷键支持：自定义热键快速操作，无需反复点击。</li>
-<li>深度兼容：支持 DDC&#x2F;CI 协议，适配主流显示器型号。</li>
+<li><strong>轻量无守护进程</strong>：无需 root 权限，资源占用更低，安全性更强；</li>
+<li><strong>兼容 Docker 生态</strong>：无缝使用 Docker 命令、镜像和扩展插件；</li>
+<li><strong>Kubernetes 集成</strong>：支持本地和远程集群管理，一键生成 Kubernetes YAML 文件；</li>
+<li><strong>跨平台支持</strong>：完美适配 Windows、macOS 和 Linux 系统。</li>
 </ul>
-<p><img src="http://img.esparks.cn/img/20250321161402_e4523a610916096717b94937197d1d86.png"></p>
-<h2 id="安装与使用"><a href="#安装与使用" class="headerlink" title="安装与使用"></a>安装与使用</h2><h4 id="1-安装方式"><a href="#1-安装方式" class="headerlink" title="1. 安装方式"></a>1. 安装方式</h4><ul>
-<li><p>Windows 用户（推荐）：直接下载官网或 GitHub Releases 的 <code>.exe</code> 安装包，双击运行即可。</p>
+<p><img src="http://img.esparks.cn/img/20250321161416_0541483a6699838e7a74a7b5d2682a54.png"></p>
+<h2 id="安装与使用"><a href="#安装与使用" class="headerlink" title="安装与使用"></a>安装与使用</h2><h4 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h4><ul>
+<li><p><strong>macOS</strong>:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brew install podman-desktop  <span class="comment"># 通过 Homebrew 一键安装</span></span><br><span class="line">podman machine init          <span class="comment"># 初始化 Podman 虚拟机</span></span><br><span class="line">podman machine start         <span class="comment"># 启动虚拟机</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>开发者&#x2F;极客用户：使用包管理器快速安装：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">  ```</span><br><span class="line"></span><br><span class="line"><span class="comment"># Chocolatey 安装</span></span><br><span class="line"></span><br><span class="line">choco install twinkle-tray</span><br><span class="line"></span><br><span class="line"><span class="comment"># Scoop 安装</span></span><br><span class="line"></span><br><span class="line">scoop bucket add extras</span><br><span class="line">scoop install extras/twinkle-tray</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
-</ul>
-<h4 id="2-使用案例"><a href="#2-使用案例" class="headerlink" title="2. 使用案例"></a>2. 使用案例</h4><p>安装后，系统托盘会出现🌙图标，点击即可展开亮度调节面板：  </p>
-<ul>
-<li><p>基础操作：拖动滑块或使用鼠标滚轮调整亮度。  </p>
+<li><p><strong>Windows</strong>:   </p>
+<ol>
+<li>下载安装包（官网或 Winget）；  </li>
+<li>启用 WSL2 和 Hyper-V 支持，创建 Podman 虚拟机；</li>
+</ol>
 </li>
-<li><p>高级技巧（需 v1.13.0+）：通过命令行脚本批量控制亮度，例如：  </p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 将所有显示器亮度设为50%</span></span><br><span class="line"><span class="string">&quot;%LocalAppData%\Programs\twinkle-tray\Twinkle Tray.exe&quot;</span> --All --Set=50</span><br></pre></td></tr></table></figure></li>
+<li><p><strong>Linux</strong>:</p>
+</li>
 </ul>
-<p><img src="http://img.esparks.cn/img/20250321161402_2c4cfdbf6ce1d6caea8ce2facff974ad.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Twinkle Tray 的亮点在于：完全免费开源（MIT 协议），无广告、无捆绑；轻量高效，仅占用约 15MB 内存，后台运行无负担；持续更新，社区驱动开发，功能迭代快。</p>
-<p>无论你是多屏办公族、深夜码农，还是追求极致效率的极客，这款工具都能让你的数字生活更舒适高效。立即尝试 Twinkle Tray，告别手动调光的繁琐吧！</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">项目地址：https://github.com/xanderfrangos/twinkle-tray</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">flatpak install flathub io.podman_desktop.PodmanDesktop  # Flatpak安装</span><br></pre></td></tr></table></figure>
+
+<h4 id="使用案例：运行一个-Nginx-容器"><a href="#使用案例：运行一个-Nginx-容器" class="headerlink" title="使用案例：运行一个 Nginx 容器"></a>使用案例：运行一个 Nginx 容器</h4><ol>
+<li>打开 Podman Desktop，点击「镜像」→「拉取镜像」，输入 <code>nginx:latest</code>；</li>
+<li>点击「容器」→「运行容器」，选择镜像并设置端口映射（如 80:80）；</li>
+<li>浏览器访问 <code>[http://localhost](http://localhost)</code>，即可看到 Nginx 欢迎页！</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Podman Desktop 以开源免费、轻量安全为核心，解决了传统容器工具的体积臃肿、权限复杂等问题。无论你是想替代 Docker Desktop，还是需要管理 Kubernetes 资源，它都能通过图形化界面和兼容性设计，大幅提升开发效率。</p>
+<p>现在就赶紧下载体验试试吧，用更优雅的方式，开启你的容器化之旅 ～</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">项目地址：https://github.com/podman-desktop/podman-desktop</span><br></pre></td></tr></table></figure>
 
                 
             </div>
@@ -477,7 +484,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://ourceteams.github.io/2025/03/21/%E5%A4%9A%E5%B1%8F%E5%85%9A%E7%A6%8F%E9%9F%B3%EF%BC%81%E8%BF%99%E6%AC%BE%206.4k%20Star%20%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E6%90%9E%E5%AE%9A%20Windows%20%E6%98%BE%E7%A4%BA%E5%99%A8%E4%BA%AE%E5%BA%A6%E7%AE%A1%E7%90%86/">http://ourceteams.github.io/2025/03/21/%E5%A4%9A%E5%B1%8F%E5%85%9A%E7%A6%8F%E9%9F%B3%EF%BC%81%E8%BF%99%E6%AC%BE%206.4k%20Star%20%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E6%90%9E%E5%AE%9A%20Windows%20%E6%98%BE%E7%A4%BA%E5%99%A8%E4%BA%AE%E5%BA%A6%E7%AE%A1%E7%90%86/</a>
+                    <a href="http://ourceteams.github.io/2025/03/21/%E8%BF%99%E6%AC%BE%205.5k%20Star%20%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E8%AE%A9%E4%BD%A0%E8%BD%BB%E6%9D%BE%E7%8E%A9%E8%BD%AC%E5%AE%B9%E5%99%A8%EF%BC%8C%E8%BF%98%E8%83%BD%E5%85%BC%E5%AE%B9%20Docker/">http://ourceteams.github.io/2025/03/21/%E8%BF%99%E6%AC%BE%205.5k%20Star%20%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E8%AE%A9%E4%BD%A0%E8%BD%BB%E6%9D%BE%E7%8E%A9%E8%BD%AC%E5%AE%B9%E5%99%A8%EF%BC%8C%E8%BF%98%E8%83%BD%E5%85%BC%E5%AE%B9%20Docker/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -564,13 +571,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2025/03/21/%E5%91%8A%E5%88%AB%E5%8D%A1%E9%A1%BF%E4%B8%8E%E6%9D%9F%E7%BC%9A%EF%BC%8123k%20Star%20%E7%9A%84%E5%BC%80%E6%BA%90%20Markdown%20%E7%AC%94%E8%AE%B0%E7%A5%9E%E5%99%A8%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8D%E9%87%8A%E6%89%8B%EF%BC%81/">
+                <a href="/2025/03/21/%E5%A4%9A%E5%B1%8F%E5%85%9A%E7%A6%8F%E9%9F%B3%EF%BC%81%E8%BF%99%E6%AC%BE%206.4k%20Star%20%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E4%B8%80%E9%94%AE%E6%90%9E%E5%AE%9A%20Windows%20%E6%98%BE%E7%A4%BA%E5%99%A8%E4%BA%AE%E5%BA%A6%E7%AE%A1%E7%90%86/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="告别卡顿与束缚！23k Star 的开源 Markdown 笔记神器，让你爱不释手！">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="多屏党福音！这款 6.4k Star 的开源神器一键搞定 Windows 显示器亮度管理">
                         
-                        <span class="card-title">告别卡顿与束缚！23k Star 的开源 Markdown 笔记神器，让你爱不释手！</span>
+                        <span class="card-title">多屏党福音！这款 6.4k Star 的开源神器一键搞定 Windows 显示器亮度管理</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -609,13 +616,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/03/21/%E8%BF%99%E6%AC%BE%205.5k%20Star%20%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%E8%AE%A9%E4%BD%A0%E8%BD%BB%E6%9D%BE%E7%8E%A9%E8%BD%AC%E5%AE%B9%E5%99%A8%EF%BC%8C%E8%BF%98%E8%83%BD%E5%85%BC%E5%AE%B9%20Docker/">
+                <a href="/2025/03/16/%E5%9C%A8%E5%85%AC%E5%8F%B8%E9%87%8C%EF%BC%8C%E6%B0%B8%E8%BF%9C%E8%A6%81%E8%AE%B0%E4%BD%8F%EF%BC%9A1%E3%80%81%E4%B8%8D%E8%A6%81%E7%9C%8B%E4%B9%A6%E5%AD%A6%E4%B9%A0/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="告别臃肿！这款 5.5k Star 的开源神器让你轻松玩转容器，还能兼容 Docker">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="在公司里，永远要记住：1、不要看书学习">
                         
-                        <span class="card-title">告别臃肿！这款 5.5k Star 的开源神器让你轻松玩转容器，还能兼容 Docker</span>
+                        <span class="card-title">在公司里，永远要记住：1、不要看书学习</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -626,7 +633,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-16
                             </span>
                         <span class="publish-author">
                             
@@ -639,8 +646,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%99%BD%E5%B0%8F%E7%99%BD/">
-                        <span class="chip bg-color">白小白</span>
+                    <a href="/tags/%E6%B0%B8%E6%81%92%E5%90%9B/">
+                        <span class="chip bg-color">永恒君</span>
                     </a>
                     
                 </div>
